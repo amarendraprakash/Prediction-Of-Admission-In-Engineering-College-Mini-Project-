@@ -8,18 +8,16 @@ Authors
 #### Jaiprakash LJ
 
 ## Description
-The model leverages features such as GRE Score, TOEFL Score, University Rating, SOP, LOR, CGPA, and Research experience to predict the probability of admission. The dataset used for training contains 400 entries with these features. The model employs regression techniques to provide a probability score and can also be used for binary classification (admitted or not) based on a threshold.
+The model leverages features such as GRE Score, TOEFL Score, University Rating, SOP, LOR, CGPA, and Research experience to predict the probability of admission. The dataset used for training contains 200 entries with these features. The model employs regression techniques to provide a probability score and can also be used for binary classification (admitted or not) based on a threshold.
 Usage
 You can download and use this project for educational or personal purposes. The repository includes:
 
-A Jupyter notebook (Admission.ipynb) with the data analysis and model training.
-The dataset (college_admission_prediction.csv) used for training the model.
-Instructions to run the model and make predictions.
+A Python script (Admission.py) that includes data preprocessing, model training, and a GUI for predictions. The dataset (college_admission_prediction.csv) used for training the model. Instructions to run the script and make predictions.
 
 ## To use the model:
 
 Clone or download the repository.
-Install the required dependencies (listed in the notebook).
-Run the Jupyter notebook to train the model and make predictions.
+Install the required dependencies.
+Run the Python script to train the model and make predictions.
 
 Feel free to modify the code or dataset to suit your needs!
